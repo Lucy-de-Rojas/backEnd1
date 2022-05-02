@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\ldrpr\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   'express',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version'
+1 verbose cli ]
+2 info using npm@4.1.2
+3 info using node@v16.13.0
+4 silly mapToRegistry name express
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'express',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'express',
+7 silly mapToRegistry   name: 'express',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag'
+7 silly mapToRegistry }
+8 silly mapToRegistry uri https://registry.npmjs.org/express
+9 verbose request uri https://registry.npmjs.org/express
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 23:49:33
+12 verbose request id 3951fc4eeac9d6e1
+13 http request GET https://registry.npmjs.org/express
+14 http 200 https://registry.npmjs.org/express
+15 verbose headers {
+15 verbose headers   date: 'Mon, 02 May 2022 22:49:33 GMT',
+15 verbose headers   'content-type': 'application/json',
+15 verbose headers   'transfer-encoding': 'chunked',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'cf-ray': '70544f90fb364057-LHR',
+15 verbose headers   'access-control-allow-origin': '*',
+15 verbose headers   age: '261',
+15 verbose headers   'cache-control': 'public, max-age=300',
+15 verbose headers   etag: 'W/"91d7308ae4beecdff544c0ad835491dc"',
+15 verbose headers   'last-modified': 'Sun, 01 May 2022 22:20:18 GMT',
+15 verbose headers   vary: 'accept-encoding, accept',
+15 verbose headers   'cf-cache-status': 'HIT',
+15 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+15 verbose headers   'x-amz-replication-status': 'COMPLETED',
+15 verbose headers   server: 'cloudflare',
+15 verbose headers   'content-encoding': 'gzip'
+15 verbose headers }
+16 silly get cb [
+16 silly get   200,
+16 silly get   {
+16 silly get     date: 'Mon, 02 May 2022 22:49:33 GMT',
+16 silly get     'content-type': 'application/json',
+16 silly get     'transfer-encoding': 'chunked',
+16 silly get     connection: 'keep-alive',
+16 silly get     'cf-ray': '70544f90fb364057-LHR',
+16 silly get     'access-control-allow-origin': '*',
+16 silly get     age: '261',
+16 silly get     'cache-control': 'public, max-age=300',
+16 silly get     etag: 'W/"91d7308ae4beecdff544c0ad835491dc"',
+16 silly get     'last-modified': 'Sun, 01 May 2022 22:20:18 GMT',
+16 silly get     vary: 'accept-encoding, accept',
+16 silly get     'cf-cache-status': 'HIT',
+16 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+16 silly get     'x-amz-replication-status': 'COMPLETED',
+16 silly get     server: 'cloudflare',
+16 silly get     'content-encoding': 'gzip'
+16 silly get   }
+16 silly get ]
+17 verbose get saving express to C:\Users\ldrpr\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+18 verbose correctMkdir C:\Users\ldrpr\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+19 verbose stack TypeError: cb.apply is not a function
+19 verbose stack     at C:\Users\ldrpr\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:287:18
+19 verbose stack     at FSReqCallback.oncomplete (node:fs:199:5)
+20 verbose cwd c:\Users\ldrpr\Desktop\Course\freeCodeCamp\BackEnd\boilerplate-npm
+21 error Windows_NT 10.0.19044
+22 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ldrpr\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "view" "--json" "express" "description" "dist-tags.latest" "homepage" "version"
+23 error node v16.13.0
+24 error npm  v4.1.2
+25 error cb.apply is not a function
+26 error If you need help, you may report this error at:
+26 error     <https://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]
